@@ -5,7 +5,7 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class DataService {
-    private  urlDomaine :  string = "http://192.168.64.66/GSB-Angular4/gsb_angular_rest4/";
+    private  urlDomaine :  string = "http://192.168.64.66/GSB-Angular4/gsb_angular_rest/";
     visiteur : any;
 
     constructor(private http: Http) {}
